@@ -1,0 +1,12 @@
+.more-info {
+  cursor: pointer;
+  font-size: 13px;
+  padding-bottom: 2px;
+  border-bottom: 1px rgb(168, 168, 168) dotted;
+}
+
+.more-info:hover {
+  border-bottom: 1px black dotted;
+  color: black;
+  transition: var(--transition-all-time);
+}

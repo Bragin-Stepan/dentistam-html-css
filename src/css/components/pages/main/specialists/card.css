@@ -1,0 +1,89 @@
+.specialists__card {
+  position: relative;
+
+  margin-right: 25px;
+  border-radius: 10px;
+  background-color: white;
+  width: 370px;
+  min-height: 600px;
+}
+
+.specialists__card-header {
+  display: flex;
+  justify-content: center;
+  height: 360px;
+}
+
+.specialists__card-header img {
+  position: relative;
+  background-clip: border-box;
+  border-radius: 10px 10px 0 0;
+
+  margin-top: 30px;
+  height: 90%;
+  width: 90%;
+}
+
+.specialists__card-info {
+  /* height: 130px; */
+  font-size: 18px;
+  padding: 0 2rem;
+  margin-bottom: 12px;
+}
+
+.specialists__card-name {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.specialists__card-info p {
+  padding-right: 2.6rem;
+  opacity: 0.6;
+  margin-top: 14px;
+  padding-bottom: 70px;
+  font-size: 14px;
+}
+
+/* .specialists__card-footer {
+  position: relative;
+  padding: 0 30px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: end;
+} */
+
+.specialists__cards-list-button.button-white {
+  position: absolute;
+
+  border: 1px solid var(--red-color);
+  bottom: 0;
+  padding: 14px 30px;
+  padding-right: 45px;
+  margin-left: 1.8rem;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 600;
+
+  box-shadow: none;
+}
+
+.specialists__cards-list-button img {
+  position: absolute;
+  height: 15px;
+  width: 8px;
+  top: 33%;
+  left: 80%;
+
+  transform: translate(0, 0px);
+  transition: all 250ms;
+}
+
+.specialists__card .more-info {
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1160px) {
+  .specialists__card {
+    width: 420px;
+  }
+}

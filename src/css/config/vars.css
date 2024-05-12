@@ -1,0 +1,30 @@
+:root {
+
+  /* Цвет */
+  --black-color: #3F3F3F;
+  --gray-color: #838383;
+  --light-gray-color: #767676;
+  --red-color: #E21F4D;
+  --red-dark-color: #460b19;
+  --green-color: #79BC6E;
+  --bg-color: #fafafa;
+
+  /* Тень */
+  --gradient-red-shadow-one: 0px 0px 27px 4px rgba(255, 255, 255, 0.7) inset,
+    0px 8px 10px 0px rgba(226, 31, 77, 0.4);
+
+  --gradient-red-shadow-two: 0px 0px 27px 4px rgba(255, 255, 255, 0.46) inset,
+    0px 4px 10px 0px rgba(226, 31, 77, 0.3);
+
+  --shadow-main: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
+  --shadow-second: 0px 14px 44px 0px rgba(0, 0, 0, 0.09);
+
+  /* Для анимации */
+  --transition-all-time: all 250ms;
+
+  /* Размер */
+  --max-width: 1160px;
+
+  /* Шрифт */
+  --font-family: "Manrope", "LonelyArmadillo", sans-serif;
+}

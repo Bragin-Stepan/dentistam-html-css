@@ -1,0 +1,226 @@
+.m-medical-care {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .medical-care {
+    display: none;
+  }
+
+  .m-medical-care {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .m-medical-care .button-white {
+    margin-bottom: 25px;
+    margin: 5px 3rem;
+  }
+
+  .m-medical-care h2 {
+    margin: 5px 8rem;
+    margin-bottom: 15px;
+  }
+
+  /* ===== Carusel ===== */
+
+  .m-medical-care__carusel-wrapper {
+    position: relative;
+    margin-top: 10px;
+    overflow-x: scroll;
+  }
+
+  .m-medical-care__carusel-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .m-medical-care__carusel {
+    position: relative;
+    display: flex;
+    margin: 0 3rem;
+    /* margin-left: 3rem; */
+    padding-bottom: 40px;
+  }
+
+
+  /* Card */
+
+  .m-medical-care__card {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    width: 179px;
+    height: 267px;
+    box-shadow: var(--shadow-main);
+    flex: 0 0 auto;
+  }
+
+  .m-medical-care__card-header img {
+    position: relative;
+    background-clip: border-box;
+    border-radius: 6px 6px 0 0;
+    height: 96px;
+    width: 100%;
+  }
+
+  .m-medical-care__card-info {
+    height: 151px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 1rem;
+    padding-bottom: 100px;
+
+  }
+
+  .m-medical-care__card-info p {
+    font-size: 10px;
+  }
+
+  .m-medical-care__card-title {
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 1.375;
+    font-weight: 600;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .m-medical-care__card-button {
+    position: relative;
+    padding: 8px 0;
+    margin: 0 1rem;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .m-medical-care__card .more-info {
+    white-space: nowrap;
+    width: 90px;
+    margin: 0 1rem;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+
+
+  /* ===== Buttons ===== */
+
+  .m-medical-care__bottom {
+    display: none;
+  }
+
+  .m-medical-care__bottom-buttons {
+    margin: 0 4.5rem;
+    position: relative;
+    overflow: visible;
+    width: 40px;
+  }
+
+  .m-medical-care__bottom-button-circle {
+    position: absolute;
+    z-index: 2;
+  }
+
+  .m-medical-care__bottom-button-circle_left {
+    top: 50%;
+    right: 50%;
+    transform: translate(20%, -30%);
+  }
+
+  .m-medical-care__bottom-button-circle_left img {
+    right: 45%;
+  }
+
+  .m-medical-care__bottom-button-circle_right {
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -30%);
+  }
+
+  .m-medical-care__bottom-button-circle_right .button-circle img {
+    left: 55%;
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .m-medical-care__bottom {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .m-medical-care__bottom-bar_progress {
+    z-index: 1;
+
+    position: absolute;
+    margin-right: 7rem;
+    background-color: var(--red-color);
+    height: 6px;
+    border-radius: 25px;
+    width: 75%;
+  }
+
+  .m-medical-care__bottom-bar {
+    position: relative;
+    z-index: 0;
+
+    margin-top: 18px;
+    margin-right: 4.5rem;
+    width: 42%;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+  }
+
+  .m-medical-care__bottom-button-circle_right {
+    left: 180%;
+  }
+}
+
+@media screen and (max-width: 582px) {
+
+  .m-medical-care h2 {
+    margin: 5px 3rem;
+  }
+
+  .m-medical-care__bottom-bar {
+    margin-right: 2rem;
+  }
+
+  .m-medical-care__bottom-bar_progress {
+    width: 15%;
+  }
+
+  .m-medical-care__bottom-button-circle_right {
+    left: 200%;
+  }
+
+  .m-medical-care .button-white {
+    margin-bottom: 12px;
+    font-size: 10px;
+  }
+
+  .m-medical-care__bottom-buttons {
+    width: 20px;
+  }
+
+}
+
+
+@media screen and (max-width: 582px) {
+
+  .m-medical-care .button-white {
+    margin: 5px 2rem;
+  }
+
+  .m-medical-care h2 {
+    margin: 5px 2rem;
+  }
+
+  .m-medical-care__carusel {
+    margin: 0 2rem;
+  }
+}

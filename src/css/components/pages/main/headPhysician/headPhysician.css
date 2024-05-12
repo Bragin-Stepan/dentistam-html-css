@@ -1,0 +1,112 @@
+.head-physician {
+  position: relative;
+  margin: 0 auto;
+  max-width: var(--max-width);
+
+  display: flex;
+  justify-content: space-between;
+
+  height: 487px;
+}
+
+.head-physician__photo {
+  position: absolute;
+  z-index: -1;
+  height: 540px;
+  width: 520px;
+
+  top: 52%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+}
+
+/* left */
+.head-physician__left {
+  flex-direction: column;
+}
+
+.head-physician__left button {
+  margin-top: 33px;
+
+  padding: 7% 12%;
+  font-size: 16px;
+  z-index: 1;
+
+  box-shadow: var(--gradient-red-shadow-one);
+}
+
+/* name */
+.head-physician__name {
+  position: relative;
+  margin-bottom: 55px;
+}
+
+.head-physician__name img {
+  position: absolute;
+  height: 13px;
+  width: 13px;
+
+  top: 10%;
+  left: -2%;
+  transform: translate(-50%, -50%);
+}
+
+.head-physician__name span {
+  display: flex;
+  font-size: 55px;
+  height: 35px;
+}
+
+.head-physician__position {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* text */
+.head-physician__text {
+  width: 400px;
+  margin-left: 100px;
+}
+
+.head-physician__text p {
+  margin-bottom: 15px;
+}
+
+/* right */
+.head-physician__right {
+  position: relative;
+}
+
+.head-physician__right .section-title img {
+  position: absolute;
+  height: 13px;
+  width: 13px;
+
+  top: 14%;
+  left: -1%;
+  transform: translate(-50%, -50%);
+}
+
+/* signature */
+.head-physician__signature {
+  position: absolute;
+  z-index: -1;
+  height: 70px;
+  width: 107px;
+
+  transform: rotate(45deg);
+
+  top: 86%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+}
+
+.head-physician__signature img {
+  transform: rotate(25deg);
+}
+
+@media screen and (max-width: 1160px) {
+  .head-physician {
+    max-width: 980px;
+  }
+}

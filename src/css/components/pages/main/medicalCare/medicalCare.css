@@ -1,0 +1,87 @@
+.medical-care .section-title {
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+}
+
+/* .medical-care__carusel:last-child {
+  margin-left: 400px;
+} */
+
+/* ===== Carusel ===== */
+
+.medical-care {
+  display: flex;
+  flex-direction: column;
+}
+
+.medical-care__carusel-wrapper {
+  position: relative;
+  overflow-x: scroll;
+}
+
+.medical-care__carusel-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.medical-care__carusel {
+  position: relative;
+  display: flex;
+  /* justify-content: start; */
+  margin: 0 350px;
+  display: flex;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1540px) {
+  .medical-care__carusel {
+    margin: 0 200px;
+  }
+}
+
+
+/* ===== Buttons ===== */
+
+.medical-care__buttons {
+  margin: 0 15%;
+  position: relative;
+  overflow: visible;
+}
+
+.medical-care__button-circle {
+  position: absolute;
+  z-index: 2;
+}
+
+.medical-care__button-circle_left {
+  top: 50%;
+  left: 1%;
+  transform: translate(-50%, 310%);
+}
+
+.medical-care__button-circle_left .button-circle img {
+  left: 45%;
+
+}
+
+.medical-care__button-circle_right {
+  top: 50%;
+  left: 99%;
+  transform: translate(-50%, 310%);
+}
+
+.medical-care__button-circle_right .button-circle img {
+  left: 55%;
+}
+
+
+@media screen and (max-width: 1160px) {
+  .medical-care .section-title {
+    max-width: 1000px;
+  }
+
+  .medical-care__carusel {
+    margin-left: 70px;
+    padding-bottom: 40px;
+  }
+}

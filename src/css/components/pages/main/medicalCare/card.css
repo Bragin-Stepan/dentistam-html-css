@@ -1,0 +1,77 @@
+.medical-care__card {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+  width: 370px;
+  height: 400px;
+  box-shadow: var(--shadow-main);
+  flex: 0 0 auto;
+}
+
+.medical-care__card-header img {
+  position: relative;
+  background-clip: border-box;
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  width: 100%;
+}
+
+.medical-care__card-info {
+  height: 82px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 2rem;
+  padding-bottom: 20px;
+}
+
+.medical-care__card-info p {
+  font-size: 13px;
+}
+
+.medical-care__card-title {
+  letter-spacing: 0;
+  line-height: 1.375;
+  font-weight: 600;
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.medical-care__card-footer {
+  padding: 0 30px;
+  padding-bottom: 35px;
+  /* padding: 2.5rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.medical-care__card-button {
+  padding: 10px 32px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.medical-care__card .more-info {
+  margin-right: 30px;
+}
+
+.medical-care__card_empty {
+  opacity: 0;
+  background-color: transparent;
+  width: 330px;
+}
+
+@media screen and (max-width: 1540px) {
+  .medical-care__card_empty {
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .medical-care__card_empty {
+    width: 60px;
+  }
+}

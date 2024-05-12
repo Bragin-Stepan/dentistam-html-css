@@ -1,0 +1,150 @@
+.button-container {
+  position: relative;
+}
+
+.button {
+  border-radius: 65px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+/* Red button */
+.button-red {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 1.8rem 3.6rem;
+  color: white;
+  background-color: var(--red-color);
+
+  box-shadow: 0px 0px 27px 4px rgba(255, 255, 255, 0.4) inset;
+  transform: translate(0, -1px);
+  transition: var(--transition-all-time);
+}
+
+.button-red:hover {
+  box-shadow: 0px 0px 27px 4px rgba(255, 255, 255, 0.46) inset,
+    0px 4px 10px 0px rgba(226, 31, 77, 0.3);
+  transform: translate(0, 0px);
+  transition: var(--transition-all-time);
+}
+
+/* Big red button */
+.button-big-red {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 6% 12%;
+  color: white;
+  background-color: var(--red-color);
+
+  box-shadow: var(--gradient-red-shadow-one);
+  transform: translate(0, -1px);
+  transition: var(--transition-all-time);
+}
+
+.button-big-red:hover {
+  box-shadow: var(--gradient-red-shadow-two);
+  transform: translate(0, 0px);
+  transition: var(--transition-all-time);
+}
+
+@media screen and (max-width: 1000px) {
+  .button-big-red {
+    margin: 0 200px;
+    font-size: 12px;
+    padding: 3% 0;
+    white-space: nowrap;
+  }
+
+  .button-big-red span {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 874px) {
+  .button-big-red {
+    padding: 6% 0;
+    margin: 0 100px;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .button-big-red {
+    padding: 8% 0;
+    font-weight: 300;
+    margin: 0 0;
+  }
+}
+
+/* White button */
+.button-white {
+  width: auto;
+  padding: 0.8rem 2rem;
+  color: var(--red-color);
+  background-color: white;
+
+  box-shadow: var(--shadow-second);
+  transform: translate(0, 0px);
+  transition: var(--transition-all-time);
+
+  color: var(--red-color);
+  font-weight: 500;
+}
+
+.button-white:hover {
+  box-shadow: var(--shadow-main);
+  transform: translate(0, -1px);
+  transition: var(--transition-all-time);
+}
+
+@media screen and (max-width: 1000px) {
+  .button-white {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 582px) {
+  .button-white {
+    font-size: 10px;
+  }
+}
+
+
+/* Circle button */
+.button-circle {
+  position: relative;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: white;
+
+  box-shadow: var(--shadow-second);
+  transition: var(--transition-all-time);
+}
+
+.button-circle:hover {
+  cursor: pointer;
+  box-shadow: var(--shadow-main);
+  transform: translate(0, -1px);
+  transition: var(--transition-all-time);
+}
+
+.button-circle img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 28px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .button-circle img {
+    overflow: visible;
+    width: 8px;
+    height: 20px;
+
+  }
+}

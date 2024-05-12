@@ -1,0 +1,146 @@
+.principles-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.principles-wrapper__woman img {
+  position: absolute;
+  z-index: 0;
+  top: 55.5%;
+  left: 31%;
+  transform: translate(-50%, -50%);
+  height: 650px;
+  width: 450px;
+}
+
+.principles-wrapper .circle {
+  top: 60%;
+  left: 31%;
+}
+
+/* Stars */
+
+.principles-wrapper__star_one img {
+  position: absolute;
+  z-index: 1;
+  height: 72px;
+  width: 72px;
+
+  top: 8%;
+  left: 10%;
+  transform: rotate(15deg);
+  filter: blur(0.3px)
+}
+
+.principles-wrapper__star_two img {
+  position: absolute;
+  z-index: 1;
+  height: 130px;
+  width: 130px;
+
+  top: 82%;
+  left: 9%;
+  transform: rotate(166deg);
+  filter: blur(5px)
+}
+
+.principles-wrapper__star_three img {
+  position: absolute;
+  z-index: 1;
+  height: 72px;
+  width: 72px;
+
+  top: 32%;
+  left: 43%;
+  transform: rotate(15deg);
+  filter: blur(2px)
+}
+
+.principles-wrapper__star_four img {
+  position: absolute;
+  z-index: 1;
+  height: 52px;
+  width: 52px;
+
+  top: 100%;
+  left: 70.5%;
+  transform: rotate(145deg);
+  filter: blur(0.5px)
+}
+
+.principles-wrapper__star_five img {
+  position: absolute;
+  z-index: 1;
+  height: 30px;
+  width: 30px;
+
+  top: 2%;
+  left: 78%;
+  transform: rotate(15deg);
+  filter: blur(0.3px)
+}
+
+.principles {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: var(--max-width);
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* ===== Title ===== */
+
+.principles__title h2 {
+  font-weight: 400;
+}
+
+.principles__title b {
+  font-weight: 700;
+}
+
+/* ===== Cards ===== */
+.principles__content {
+  margin: 0 100px;
+}
+
+.principles__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.principles__list-card {
+  z-index: 1;
+  height: 80px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 11px;
+  box-shadow: var(--shadow-second);
+}
+
+.principles__list-icon {
+  position: relative;
+  margin-left: 20px;
+  border-radius: 50%;
+  background: rgba(245, 245, 245, 0.6);
+  height: 60px;
+  width: 60px;
+}
+
+.principles__list-icon img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+}
+
+.principles__list-card p {
+  margin: 0 25px;
+  font-size: 11px;
+}

@@ -1,0 +1,164 @@
+.m-head-physician {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .head-physician {
+    display: none;
+  }
+
+  .m-head-physician {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+    margin-top: 20px;
+  }
+
+  .m-head-physician h2 {
+    margin: 15px 0;
+  }
+
+  .m-head-physician .button-white {
+    width: max-content;
+  }
+
+  /* text */
+  .m-head-physician__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .m-head-physician__text p:first-child {
+    font-weight: 700;
+  }
+
+  /* photo */
+  .m-head-physician__photo {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .m-head-physician__photo-img {
+    margin-top: 20px;
+    position: relative;
+    margin: 0 auto;
+    margin-right: 5%;
+    height: 100%;
+    width: 280px;
+  }
+
+  .m-head-physician__photo-img img {
+    min-height: 280px;
+  }
+
+  .m-head-physician .button-big-red {
+    transform: translate(0, 240px);
+  }
+
+  .m-head-physician__photo-name span {
+    font-size: 60px;
+    height: 40px;
+  }
+
+  /* position */
+  .m-head-physician__position span {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    right: 50%;
+    transform: translate(-120%, 540%);
+  }
+
+  .m-head-physician__photo-name {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+    font-weight: 500;
+
+    top: 50%;
+    right: 50%;
+    transform: translate(-30%, 0%);
+  }
+
+  .m-head-physician__signature img {
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    transform: rotate(25deg);
+  }
+
+  .m-head-physician__signature {
+    opacity: 0.6;
+    z-index: 3;
+    position: absolute;
+    margin-top: 140px;
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .m-head-physician {
+    padding-top: 30px;
+  }
+
+}
+
+@media screen and (max-width: 652px) {
+
+  .m-head-physician__position span {
+    transform: translate(-80%, 540%);
+  }
+
+  .m-head-physician__photo-name {
+    transform: translate(-5%, 0%);
+  }
+
+  .m-head-physician__signature img {
+    height: 60px;
+    width: 70px;
+    transform: rotate(15deg);
+  }
+
+  .m-head-physician__signature {
+    margin-top: 160px;
+    left: 20%;
+
+  }
+}
+
+@media screen and (max-width: 582px) {
+
+  .m-head-physician {
+    padding-top: 40px;
+    margin: 40px 2rem;
+  }
+
+  .m-head-physician__text p:last-child {
+    display: none;
+  }
+
+  .m-head-physician__text p:first-child {
+    font-weight: 100;
+  }
+
+  .m-head-physician__photo-img {
+    margin-right: -20px;
+  }
+
+  .m-head-physician__position span {
+    font-size: 10px;
+    transform: translate(-140%, 720%);
+  }
+
+  .m-head-physician__photo-name {
+    transform: translate(-45%, 80%);
+  }
+
+  .m-head-physician__photo-name span {
+    font-size: 30px;
+    height: 10px;
+  }
+
+}

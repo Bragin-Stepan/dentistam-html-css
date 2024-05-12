@@ -1,0 +1,79 @@
+.red-color {
+  color: var(--red-color);
+}
+
+/* Section title */
+.section-title h2 {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.section-title .red-color {
+  font-weight: 800;
+}
+
+/* scaleX */
+.flip-x {
+  transform: scaleX(-1);
+}
+
+/* Circles */
+.circle {
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.05);
+}
+
+.circle-one {
+  height: 566px;
+  width: 566px;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+}
+
+.circle-two {
+  height: 862px;
+  width: 862px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.circle-three {
+  height: 1131px;
+  width: 1131px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+@media screen and (max-width: 1000px) {
+  .circle {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: 0px 4px 124px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .circle-one {
+    height: 250px;
+    width: 250px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .circle-two {
+    height: 391px;
+    width: 391px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .circle-three {
+    height: 583px;
+    width: 583px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}

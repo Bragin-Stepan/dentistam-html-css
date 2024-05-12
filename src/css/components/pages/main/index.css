@@ -1,0 +1,17 @@
+@import './dentalCenter/dentalCenter.css';
+
+@import './medicalCare/medicalCare.css';
+@import './medicalCare/card.css';
+
+@import './headPhysician/headPhysician.css';
+
+@import './specialists/specialists.css';
+@import './specialists/card.css';
+
+@import './principles/principles.css';
+
+@import './reviews/reviews.css';
+
+@import './license/license.css';
+
+@import './mobile.css';

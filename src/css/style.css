@@ -1,0 +1,24 @@
+/* Подключение переменных */
+@import 'config/vars.css';
+
+/* Обнуление */
+@import 'config/reset.css';
+
+/* Общие параметры */
+@import 'config/base.css';
+
+/* Часто используемые стили */
+@import 'config/common.css';
+
+/* Шрифты */
+@import 'config/fonts';
+
+
+/* Подключение стилей отдельных блоков и секций */
+
+@import 'components/header.css';
+@import 'components/footer.css';
+@import 'components/buttons.css';
+@import 'components/moreInfo.css';
+
+@import './components/pages/main/index.css';
