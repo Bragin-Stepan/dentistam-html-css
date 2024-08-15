@@ -1,3 +1,3 @@
-Без `JS`, `SCSS` и `Bootstrap (или Tailwind)` было больно `:)`
+Без `JS`, `SCSS` и `Bootstrap (или Tailwind)`
 
 `https://vercel.com/bragin-stepans-projects/dentistam-html-css`
